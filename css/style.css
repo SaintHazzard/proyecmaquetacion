@@ -77,6 +77,10 @@ main{
   text-align: center;
   color: aliceblue;
 }
+#phone15{
+  height: 60%;
+  width: 60%;
+}
 button{
   align-self: center;
 }
