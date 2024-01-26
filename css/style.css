@@ -14,7 +14,7 @@ body{
 }
 header{
   width: 100%;
-  background-color: #;
+  /* background-color: #; */
   height: 5rem;
 }
 .logo{
@@ -27,7 +27,9 @@ header{
   flex-direction: row;
   justify-content: end;
   gap: 2%;
+  padding-top: 1rem;
 }
+
 svg{
   position: absolute;
   align-self: self-start;
@@ -42,8 +44,8 @@ svg{
   display: flex;
   width: 10%;
   height: fit-content;
-  border-style: dotted;
   justify-content: center;
+  border-radius: 1rem;
 }
 
 main{
@@ -309,12 +311,17 @@ footer{
 footer div{
   height: 90%;
 }
-a{
+a {
+  background-color: #001b2d;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  color: #555;
 }
-a:hover{
-  text-decoration: underline;
+a:hover {
+  background-color: #ddd;
+  color: black;
 }
 .main2 .nums{
   grid-column: 1/3;
